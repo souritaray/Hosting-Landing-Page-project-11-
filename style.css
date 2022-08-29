@@ -1,0 +1,521 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+html{
+    width:100vw;
+}
+body{
+    background-color: #fdfeff;
+    overflow-x: hidden;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+
+.logo img{
+    width: 100px;
+    margin-left: 70px;
+}
+
+.nav-content{
+    display: flex;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-list li{
+    padding: 10px 20px;
+}
+.fa-bars{
+    display: none;
+}
+.nav-list li:first-child{
+    font-weight: bolder;
+}
+.btn button{
+    margin-left: 60px;
+    background: transparent;
+    border:2px solid rgb(7, 160, 243);
+    color: rgb(7, 160, 243);
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+/* hero1 and hero3 */
+.hero, .hero2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+.right, .left{
+    margin-left: 5%;
+}
+.right img{
+    width: 400px;
+}
+.left h1{
+    width: 550px;
+    font-size: 55px;
+}
+
+.left article{
+    font-size: 17px;
+    width: 530px;
+    font-weight: 300;
+    line-height: 1.7;
+    margin-top: 3.5%;
+}
+.left button{
+    background: linear-gradient(rgb(8, 177, 246), rgb(5, 103, 235) );
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1em;
+   box-shadow:  0px 6px 22px -5px rgb(8 177 245 / 60%);
+    margin-top: 3.5%;
+}
+    /* hero2 */
+.left img{
+    width: 500px;
+}
+
+.right h1{
+    width: 550px;
+    font-size: 55px;
+}
+
+.right article{
+    font-size: 17px;
+    width: 530px;
+    font-weight: 300;
+    line-height: 1.7;
+    margin-top: 3.5%;
+}
+
+.right button{
+    background: linear-gradient(rgb(8, 177, 246), rgb(5, 103, 235) );
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1em;
+    box-shadow:  0px 6px 22px -5px rgb(8 177 245 / 60%);
+    margin-top: 3.5%;
+}
+.services{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3.5%;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content div article{
+    width: 580px;
+    font-weight: 300;
+    margin-left: 15%;
+}
+.content div h1{
+        font-size: 35px;
+        width: 350px;
+}
+.features{
+    display: grid;
+    width: 1000px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+    gap:10%;
+    margin-top: 5%;
+    margin-left: 65px;
+}
+.card p {
+    font-weight: 300;
+    font-size: 12px;
+}
+.card h2{
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 0 0 3% 0;
+}  
+.unique{
+    height:45px;
+}
+/* Price Plans */
+
+.price-plans{
+    height:650px;
+    margin-top: 5%;
+    background: linear-gradient(to bottom right, #09c1f8,#0463ea);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.headline{
+    color: #fff;
+    letter-spacing: 2px;
+
+}
+.plans{
+    display: flex;
+    margin-top: 2%;
+}
+.plan{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #fff;
+    margin-left: 5%;
+    height: 550px;
+    border-radius: 10px;
+    width: 350px;
+}
+.plan .facility ul li{
+    list-style-type: none;
+    padding: 10px 0;
+    font-size: 15px;
+}
+.plan .plan-title{
+    padding: 10%;
+}
+.plan-title article{
+    margin-top: 20px;
+    color: #808080;
+    font-size: 14px;
+}  
+.plan-title h3{
+    font-size: 26px ;
+}
+.plan .facility ul li i {
+    color: #06D6A0;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.pricing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pricing span{
+    color:#808080;
+}
+.pricing p{
+    color:#808080;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.pricing button{
+    background: transparent;
+    border:2px solid rgb(7, 160, 243);
+    color: rgb(7, 160, 243);
+    padding: 10px 30px;
+    border-radius: 8px;
+    font-size: 1em;
+}
+.active button{
+    background: linear-gradient(rgb(8, 177, 246), rgb(5, 103, 235) );
+    color:#fff;
+}
+.one{
+        color: #fff;
+        background-color: #000;
+        padding: 10%;
+        width: 100%;
+        border-radius: 10px;
+        margin-top: -7%;
+    }
+    .Testimonials{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 150vh;
+    }
+    .Testimonials .title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .title h2{
+        font-size: 35px;
+        margin: 0 0 2% 0;
+    }
+    .title article{
+        font-weight: 300;
+        width: 720px;
+        text-align: center;
+        margin: 0 0 8% 0;
+    }
+    .reviews{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 2%;
+        margin-right:0 10%;
+    }
+    .review{
+        border: 2px solid #F1F2F3;
+        border-radius: 10px;
+        width: 470px;
+        padding: 5%;  
+        line-height: 1.6;
+        font-size: 14px;
+        background-color: rgba(253, 254, 255, 0.8);
+    }
+    .reviews .active  {
+        background-color: #fff;
+        box-shadow: 0px 0px 30px -15px rgb(128 128 128 / 66%);
+    }
+    .info{
+        display: flex;
+        align-items: center;
+        margin-top: 2%;
+    }
+    .profile+div{
+        margin-left: 5%;
+    }
+    .Register {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        color: #fff;
+        background: url('footer-bg.svg');
+        padding: 5%;
+        background-size: cover;
+    }
+    .Register div button{
+        background: transparent;
+        border:1px solid rgb(255, 255, 255);
+        color: rgb(255, 255, 255);
+        padding: 10px 20px;
+        border-radius: 8px; 
+    }
+    
+    .Register div h2{
+        font-size: 50px;
+    }
+    
+    .Register .content{
+        width: 483px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Register div article{
+        font-weight: 100;
+        line-height: 1.5;
+        margin-top: 5%;
+        font-size: 17px;
+    }
+    
+    
+     footer{
+        display: flex;
+        justify-content: space-between;
+        margin: 12% 5% 4% 5%;
+    }
+    .footer-logo img{
+        width: 100px;
+    }
+    .footer-logo{
+        font-weight: 300;
+        width:296px;
+    }
+    .footer-logo article{
+        font-weight: 400;
+        line-height: 1.5;
+        margin-top: 5%;
+        font-size: 15px;
+        width: 240px;
+        color: #808080;
+    }
+    footer ul {
+        margin-top: 10%;
+    }
+    footer ul li{
+        font-weight: 400;
+        list-style-type: none;
+        padding: 12px 0px;
+        font-size: 14px;
+        color: #808080;
+        cursor: pointer;
+    }
+    
+    footer .footer-topics {
+        color: #1D2B4F;
+        font-size: 25px;
+    }
+    
+    .overview h3{
+        margin-bottom: -5px;
+    }
+    .Social-Media{
+        text-align: center;
+    }
+    .Social-Media img{
+        width: 38px;
+        margin-top: 15%;
+        padding-left: 5px;
+    }
+
+    /* Responsive */
+
+@media only screen and (max-width:800px){
+        .hero{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+           margin-bottom: 50px;
+            gap:10px;
+            text-align: center;
+        }
+        .nav-content{
+            display: flex;
+            justify-content: space-between;
+            width:152px;
+        }
+        .fa-bars{
+            display: block;
+        }
+        .logo img{
+            width:100px;
+            margin-left: 10px;
+        }
+        .btn button{
+            width:100px;
+            margin-left: 10px;
+        }
+        .nav-list{
+            display: none;
+        }
+        .left h1{
+            font-size: 45px;
+            width:311px;
+        }
+        .left article{
+            font-size:15px;
+            width:311px;
+        }
+        .right img{
+            width:280px;
+        }
+        .hero2{
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+           margin-bottom: 50px;
+            gap:10px;
+            text-align: center; 
+        }
+        .left img{
+            width:280px;
+        }
+        .right h1{
+            font-size: 45px;
+            width:311px;
+        }
+        .right article{
+            font-size:15px;
+            width:311px;
+        }
+        .services div h1{
+            font-size: 33px;
+            width:311px; 
+        }
+        .content{
+            width:300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .services div article{
+            margin-top: 30px;
+            font-size: 12px;
+            width:311px;
+            margin-left: 0;
+        }
+        .features{
+            display: flex;
+            flex-direction: column;
+            width:200px;
+            gap:60px;
+        }
+        .headline{
+            width:280px;
+            font-size: 20px;
+        }
+        .price-plans{
+            height:1870px;
+            width:100%;
+        }
+        .plans{
+            display: flex;
+            flex-direction: column;
+            gap:30px;
+            margin-left: -52px;
+        }
+        .Testimonials{
+            margin-top: 170px;
+        }
+        .title h2{
+            font-size: 20px;
+        }
+        .title article{
+            font-size: 15px;
+            width:280px;
+        }
+        .review{
+            width:280px;
+        }
+        .reviews{
+            display: flex;
+            flex-direction: column;
+            
+            gap:40px;
+            margin-left: 10px;
+        }
+        .Register{
+            display: flex;
+            flex-direction: column;
+            gap:40px;
+            margin-top: 195px;
+        }
+        .Register .content h2{
+            font-size: 20px;
+            width:300px;
+        }
+        .Register .content article{
+            font-size: 15px;
+            width:300px;
+        }
+        footer{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap:50px;
+        }
+    }
