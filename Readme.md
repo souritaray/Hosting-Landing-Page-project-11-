@@ -32,7 +32,7 @@ In this project I have got hands on experience on
 Approximately 18 hours.
 
 ## Live Link
-
+[Hosting Landing Page](https://hosting-landing-pg-souritaray.netlify.app/)
 
 ## Contact me on:
 
